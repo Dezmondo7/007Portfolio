@@ -1,0 +1,14 @@
+/*Dezmondo7 Portfolio*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.navbar {
+    display: inline;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
