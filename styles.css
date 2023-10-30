@@ -144,7 +144,7 @@ section#hero {
 .bottom-right {
     position: absolute;
     bottom: 15px;
-    right: 40px;
+    right: 40px;  
 }
 /*Start of Grid*/
 .wrapper {
@@ -163,22 +163,97 @@ section#hero {
   .box {
     color: #fff;
     background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(15px);
     box-shadow: 10px 5px 5px black;
     border-radius: 5px;
     padding: 20px;
     font-size: 150%;
   }
+  
+  #box-a {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+  }
 
+  #box-b {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px;
+  }
+
+  #box-c {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  #box-e {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0px);
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 20px;
+  }
+
+  #box-f {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0px);
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px 20px;
+  }
+
+  #box-g {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0px);
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px 20px;
+  }
+
+  #box-h {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0px);
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px 20px;
+  }
+
+  #box-i {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0px);
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px 20px;
+  }
+  
   .box img {
         width: 100%;
         height: auto;
       }
 
-
-   .box, e, img {
-    object-fit: fill;
-   }   
 
    .nested-netflix {
         position: absolute;
