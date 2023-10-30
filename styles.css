@@ -1,5 +1,4 @@
 /*Dezmondo7 Portfolio*/
-
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +14,7 @@ body {
     background-position: center;
 }
 
+/*<<<<<<<<<-------HEADER------->>>>>>>>>*/
 li {
     list-style: none;
 }
@@ -29,7 +29,7 @@ a:hover {
     color: orange;
 }
 
-/*<<<<<<<<<-------HEADER------->>>>>>>>>*/
+
 header {
     position: relative;
     padding: 0 2rem;
@@ -38,7 +38,7 @@ header {
 .navbar {
     width: 100%;
     height: 60px;
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -131,12 +131,25 @@ section#hero {
     margin-bottom: 1rem;
 }
 
+/*------Top Image--------*/
+.top-image {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 15px;
+    right: 40px;
+}
 /*Start of Grid*/
 
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(4, [col] 150px ) ;
+    grid-template-columns: repeat(3, [col] 150px ) ;
     grid-template-rows: repeat(2, [row] auto  );
     background-color: #fff;
     color: #444;
@@ -209,15 +222,28 @@ section#hero {
     }
 
     .dropdown_menu {
+        position: relative;
         display: block;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 }
 
 /*<<<<<<<----Mobile Design--------->>>>>>>>>*/
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
 .dropdown_menu {
+    position: relative;
     left: 2rem;
     width: unset;
 }
+
+.wrapper {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(1, [col] 150px ) ;
+    grid-template-rows: repeat(2, [row] auto  );
+    color: #444;
+  }
 }
+
