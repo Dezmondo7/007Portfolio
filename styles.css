@@ -8,8 +8,8 @@
 
 body {
     height: 100vh;
-    background-color: #000;
-    background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    background-color: black;
+    background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"); 
     background-size: cover;
     background-position: center;
 }
@@ -33,6 +33,7 @@ a:hover {
 header {
     position: relative;
     padding: 0 2rem;
+    background-color: #132E5D;
 }
 
 .navbar {
@@ -146,7 +147,6 @@ section#hero {
     right: 40px;
 }
 /*Start of Grid*/
-
 .wrapper {
     display: grid;
     grid-gap: 10px;
@@ -154,6 +154,10 @@ section#hero {
     grid-template-rows: repeat(2, [row] auto  );
     color: #444;
     padding: 30px 10px;
+  }
+
+  .wrapper p {
+    font-size: 1.5rem;
   }
 
   .box {
@@ -168,22 +172,53 @@ section#hero {
 
   .box img {
         width: 100%;
-        height: 300px;
+        height: auto;
       }
 
-   .box e img {
+
+   .box, e, img {
     object-fit: fill;
    }   
 
-
    .nested-netflix {
         position: absolute;
-        bottom: 5px;
-        right: 20px;
+        bottom: 30px;
+        right: 25px;
         color: white;
         font-weight: bold;
     }
 
+    .nested-calc {
+        position: absolute;
+        bottom: 30px;
+        right: 25px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .nested-gallery {
+        position: absolute;
+        bottom: 30px;
+        right: 25px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .nested-hks {
+        position: absolute;
+        bottom: 30px;
+        right: 25px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .nested-coffee {
+        position: absolute;
+        bottom: 30px;
+        right: 25px;
+        color: white;
+        font-weight: bold;
+    }
 
   .a {
     grid-column: col / span 2;
@@ -233,9 +268,7 @@ section#hero {
     grid-row: 3;
 }
 
-
-
-/*<<<<<<<<<<-------Responsive Design-------->>>>>>>>>>>*/
+/*<<<<<<<<<<-------Tablet Design-------->>>>>>>>>>>*/
 @media (max-width: 992px) {
     .navbar .links,
     .navbar .action_button {
@@ -255,7 +288,6 @@ section#hero {
 }
 
 /*<<<<<<<----Mobile Design--------->>>>>>>>>*/
-
 @media (max-width: 600px) {
 .dropdown_menu {
     position: relative;
