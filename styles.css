@@ -157,7 +157,7 @@ section#hero {
   }
 
   .wrapper p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .box {
@@ -231,6 +231,7 @@ section#hero {
     backdrop-filter: blur(0px);
     box-shadow: 10px 5px 5px black;
     border-radius: 5px;
+    margin-bottom: 20px;
   }
 
   #box-i {
@@ -239,6 +240,7 @@ section#hero {
     backdrop-filter: blur(0px);
     box-shadow: 10px 5px 5px black;
     border-radius: 5px;
+    margin-bottom: 20px;
   }
   
   .box img {
