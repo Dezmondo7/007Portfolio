@@ -160,6 +160,18 @@ section#hero {
     font-size: 1rem;
   }
 
+  #box-a p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 1px black;
+  }
+
+  #box-c p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 1px black;
+  }
+
   .box {
     color: #fff;
     background-color: rgba(255, 255, 255, 0.1);
@@ -337,8 +349,8 @@ section#hero {
 }
 
 /*<<<<<<<<<<-------Tablet Design-------->>>>>>>>>>>*/
-/*<<<<<<<<<<-------Navbar--------------->>>>>>>>>>*/
-@media (max-width: 800px) {
+
+@media only screen and (max-width: 800px) {
     .navbar .links,
     .navbar .action_button {
         display: none;
@@ -354,6 +366,16 @@ section#hero {
         justify-content: center;
         margin-bottom: 20px;
     }
+    #box-a p {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  
+    #box-c p {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
 }
 
 /*<<<<<<<----Mobile Design--------->>>>>>>>>*/
@@ -363,7 +385,7 @@ section#hero {
     left: 2rem;
     width: unset;
 }
-/*Grid display*/
+
 .wrapper {
     display: grid;
     grid-gap: 2px;
@@ -371,15 +393,37 @@ section#hero {
     grid-template-rows: repeat(2, [row] auto  );
     color: #444;
   }
+
+.wrapper p {
+  font-size: 0.75rem;
 }
+
+#box-a p {
+  font-size: 1rem;
+}
+
+#box-c p {
+  font-size: 1rem;
+}
+
 #box-a {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
   box-shadow: 10px 5px 5px black;
   border-radius: 5px;
-  padding: 10px;
-  margin: 10px;
+  padding: auto;
+  margin: auto;
+}
+
+#box-b {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  box-shadow: 10px 5px 5px black;
+  border-radius: 5px;
+  padding: auto;
+  margin: auto;
 }
 
 #box-c {
@@ -388,6 +432,8 @@ section#hero {
   backdrop-filter: blur(15px);
   box-shadow: 10px 5px 5px black;
   border-radius: 5px;
-  padding: 10px;
-  margin: 10px;
+  padding: auto;
+  margin: auto;
+  
+}
 }
