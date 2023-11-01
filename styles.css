@@ -350,7 +350,7 @@ section#hero {
 
 /*<<<<<<<<<<-------Tablet Design-------->>>>>>>>>>>*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .navbar .links,
     .navbar .action_button {
         display: none;
@@ -366,6 +366,7 @@ section#hero {
         justify-content: center;
         margin-bottom: 20px;
     }
+    
     #box-a p {
       font-size: 1.5rem;
       font-weight: bold;
@@ -379,7 +380,7 @@ section#hero {
 }
 
 /*<<<<<<<----Mobile Design--------->>>>>>>>>*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
 .dropdown_menu {
     position: relative;
     left: 2rem;
@@ -393,6 +394,7 @@ section#hero {
     grid-template-rows: repeat(2, [row] auto  );
     color: #444;
   }
+  
 
 .wrapper p {
   font-size: 0.75rem;
@@ -406,34 +408,38 @@ section#hero {
   font-size: 1rem;
 }
 
-#box-a {
+.box a {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
   box-shadow: 10px 5px 5px black;
   border-radius: 5px;
-  padding: auto;
-  margin: auto;
-}
-
-#box-b {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(15px);
-  box-shadow: 10px 5px 5px black;
-  border-radius: 5px;
-  padding: auto;
-  margin: auto;
-}
-
-#box-c {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(15px);
-  box-shadow: 10px 5px 5px black;
-  border-radius: 5px;
-  padding: auto;
+  padding: 5px auto;
   margin: auto;
   
+}
+
+.box c {
+  display: none;  
+}
+
+.a {
+  display: none;
+}
+
+.b {
+  display: none;
+}
+
+.c {
+  display:none;
+}
+
+.d {
+  grid-column: col / span 5;
+  grid-row: row 2;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns:1fr 1fr;
 }
 }
