@@ -395,7 +395,9 @@ section#hero {
     color: #444;
   }
   
-
+  .box a:hover {
+    color: orange;
+}
 .wrapper p {
   font-size: 0.75rem;
 }
@@ -416,7 +418,6 @@ section#hero {
   border-radius: 5px;
   padding: 5px auto;
   margin: auto;
-  
 }
 
 .box c {
