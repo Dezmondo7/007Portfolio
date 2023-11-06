@@ -183,7 +183,7 @@ section#hero {
   font-size: 150%;
 }
 
-#inner-box {
+.inner-box {
   max-width: 940px;
   max-height: 1358.87;
 }
@@ -409,18 +409,16 @@ section#hero {
   margin-bottom: 10px;
 }
 
-.fcol ul li a i {
-  display: block;
+.fcol ul li a {
+  display: flex;
   align-content: center;
   text-transform: capitalize;
   transition: all 0.3s ease;
 }
 
-.fcol ul li a:hover {
-  display: block;
-  align-content: center;
-  text-transform: capitalize;
-  transition: all 0.3s ease;
+.fcol .i {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .fcol ul li a:hover {
@@ -457,7 +455,7 @@ section#hero {
 
 /*<<<<<<<<<<-------Tablet Design-------->>>>>>>>>>>*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 842px) {
 
   .navbar .links,
   .navbar .action_button {
@@ -480,15 +478,28 @@ section#hero {
     font-weight: bold;
   }
 
+  .box .text {
+    font-size: 12px;
+  }
+
   #box-c p {
     font-size: 1.5rem;
     font-weight: bold;
   }
 
+  .fcol {
+    width: 1fr;
+    padding: 20px 10px;
+    margin: auto;
+  }
+
+  .fcol2 {
+    display: none;
+  }
 }
 
 /*<<<<<<<----Mobile Design--------->>>>>>>>>*/
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 612px) {
   .dropdown_menu {
     position: relative;
     left: 2rem;
@@ -559,21 +570,8 @@ section#hero {
     margin: auto;
   }
 
-  .fcol2 h4 {
-    font-size: 18px;
-    text-transform: capitalize;
-    color: black;
-    position: relative;
-    margin-bottom: 30px;
-    font-weight: bold;
-  }
-
   .fcol2 {
-    position: relative;
-    padding-left: 10px;
+    display: none;
   }
 }
-
-
-
 
