@@ -183,6 +183,11 @@ section#hero {
   font-size: 150%;
 }
 
+#inner-box {
+  max-width: 940px;
+  max-height: 1358.87;
+}
+
 #box-a {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.1);
@@ -194,7 +199,7 @@ section#hero {
 }
 
 #box-b {
-  max-width: 1170px;
+  max-width: 900px;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
@@ -215,6 +220,7 @@ section#hero {
 }
 
 #box-e {
+  max-height: ;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(0px);
@@ -351,6 +357,58 @@ section#hero {
   grid-row: 3;
 }
 
+/*Footer*/
+.footer {
+  background-color: #132E5D;
+  width: 100%;
+  display: flex;
+  padding: 70px 0px;
+}
+
+.fcontainer {
+  max-width: 100%;
+  margin: auto;
+}
+
+.frow {
+  grid-row: row;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fcol a {
+  font-size: 12px;
+}
+
+.fcol {
+  width: 1fr;
+  padding: 0 15px;
+}
+
+.fcol h4 {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.fcol h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: orange;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.fcol ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
 /*<<<<<<<<<<-------Tablet Design-------->>>>>>>>>>>*/
 
 @media only screen and (max-width: 768px) {
@@ -448,24 +506,6 @@ section#hero {
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
   }
-}
-
-/*Footer*/
-.footer {
-  background-color: #132E5D;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.fcontainer {
-  max-width: 1170px;
-}
-
-.frow {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
 }
 
 
