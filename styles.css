@@ -362,11 +362,11 @@ section#hero {
   background-color: #132E5D;
   width: 100%;
   display: flex;
-  padding: 70px 0px;
+  padding: 65px 0px;
 }
 
 .fcontainer {
-  max-width: 100%;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -382,7 +382,7 @@ section#hero {
 
 .fcol {
   width: 1fr;
-  padding: 0 15px;
+  padding: 0 40px;
 }
 
 .fcol h4 {
@@ -407,6 +407,52 @@ section#hero {
 
 .fcol ul li:not(:last-child) {
   margin-bottom: 10px;
+}
+
+.fcol ul li a i {
+  display: block;
+  align-content: center;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+.fcol ul li a:hover {
+  display: block;
+  align-content: center;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+.fcol ul li a:hover {
+  padding-left: 10px;
+}
+
+.fcol2 ul li {
+  display: inline-flex;
+}
+
+.fcol2 ul li:not(:first-child) {
+  padding-left: 10px;
+}
+
+.fcol2 .socialmedialinks a {
+  display: inline-block;
+  position: relative;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.fcol2 h4 {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: black;
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 
 /*<<<<<<<<<<-------Tablet Design-------->>>>>>>>>>>*/
@@ -505,6 +551,26 @@ section#hero {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .fcol {
+    width: 1fr;
+    padding: 20px 10px;
+    margin: auto;
+  }
+
+  .fcol2 h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: black;
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+
+  .fcol2 {
+    position: relative;
+    padding-left: 10px;
   }
 }
 
