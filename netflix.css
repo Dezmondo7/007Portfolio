@@ -63,7 +63,7 @@ button:hover {
 /*Start of Gallery images*/
 
 .img-gallery {
-    width: 90%; /*width of screen set to 98%*/
+    width: 90%; /*width of screen set to 90%*/
     margin: 25px auto 50px; /*Top margin is 100px, left and right are automatically adjusted and bottom is 50px */
     display: grid; /*Createsa grid layout*/
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
