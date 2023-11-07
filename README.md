@@ -24,7 +24,7 @@
 
 ## Final Version
 
-### Below is a screenshot to the final version of the web portfolio home page with another screenshot of the Netflix clone project, you can find the website live on Github here.........
+### Below are several screenshots of the final version of the web portfolio home page, you can find the website live on Github here https://dezmondo7.github.io/007Portfolio/
 
 ![Alt text](dezmondo1.jpg)
 ![Alt text](dezmondo2.jpg)
