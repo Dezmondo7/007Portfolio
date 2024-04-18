@@ -26,7 +26,4 @@
 
 ### Below are several screenshots of the final version of the web portfolio home page, you can find the website live on Github here https://dezmondo7.github.io/007Portfolio/
 
-![Alt text](dezmondo1.jpg)
-![Alt text](dezmondo2.jpg)
-![Alt text](dezmondo3.jpg)
-![Alt text](dezmondo4.jpg)
+Put full size screen here
